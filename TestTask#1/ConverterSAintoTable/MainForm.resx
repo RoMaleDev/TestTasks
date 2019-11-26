@@ -1,0 +1,806 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="открытьToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTyAP708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v70
+        8v708v708v708v708v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+
+        9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTyAP70
+        8v708v708v708v708v708v708f7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z
+        8v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+9PL98/HK3+x8ttx8ttx8ttx8ttx8ttx8ttx8ttx8
+        ttx8ttx8tty41OZ8ttz+8/L+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy/fPwk8LhfLbcfLbc
+        fLbcfLbcfLbcfLbcfLbcfLbcfLbci73f+erqfLbc/vPy/vTy/vTy/vTy/vTyAP708v708v708v708v70
+        8v708uHr8ny23Hy23Hy23Hy23Hy23Hy23Hy23Hy23Hy23Hy23NXi7Pnq6ny23P7z8v708v708v708v70
+        8gD+9PL+9PL+9PL+9PL+9PL+8/Grz+Z8ttx8ttx8ttx8ttx8ttx8ttx8ttx8ttx8ttyhyOL56ur56up8
+        ttz+8/L+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vPyhLrefLbcfLbcfLbcfLbcfLbcfLbcfLbc
+        fLbcg7rd5Onv+erq+erqfLbc/vPy/vTy/vTy/vTy/vTyAP708v708v708v708v708v7z8v7z8oO63fnq
+        6vnq6vnq6vnq6vnq6vnq6vnq6vnq6vnq6vnq6vnq6ny23P7z8v708v708v708v708gD+9PL+9PL+9PL+
+        9PL+9PL+9PL+8/L+8/L+8/L+8/L+8/L56ur56ur56ur56ur56ur56ur56ur56up8ttz+8/L+9PL+9PL+
+        9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vPy4c67o10PnVMA/vPy/vPy+erq+erq+erq+erq+erq+erq+erq
+        +erqfLbc/vPy/vTy/vTy/vTy/vTyAP708v708v708v708v708v7z8qNdD76RXezj2f7z8v7z8v7z8v7z
+        8vnq6vnq6vnq6vnq6vnq6vnq6ny23P7z8v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+8/KdUwDh
+        zrv+8/K+kV2dUwC+kV3+8/L+8/L56ur56ur56ur56ur56up8ttz+8/L+9PL+9PL+9PL+9PIA/vTy/vTy
+        /vTy/vTy/vTy/vPyo10PvpFd7OPZ/vPyvpFdnVMArnIu/vPyfLbcfLbcfLbcfLbcfLbcfLbc/vPy/vTy
+        /vTy/vTy/vTyAP708v708v708v708v708v7z8trEq6NdD51TAJ1TAJ1TAJ1TAJ1TAM+wi/7z8v7z8v7z
+        8v7z8v7z8v7z8v7z8v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+9PL+8/L+8/L+8/Ly7eiuci6d
+        UwC+kV3+8/L+8/H+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vPx/vPyrnIunVMAvpFd/vPy/vPx/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTyAP70
+        8v708v708v708v708v708v7z8f7z8v7z8v7z8v7z8v7z8v7z8f708v708v708v708v708v708v708v70
+        8v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+
+        9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTyAP708v708v708v708v70
+        8v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v70
+        8gA=
+</value>
+  </data>
+  <data name="сохранитьToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2+BgAAAAAAADYAAAAoAAAAGQAAABYAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy//DqAP708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v70
+        8v708v708v708v708v708v708v708v/w6gD+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+
+        9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL/8OoA/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy//DqAP70
+        8v708v708v708v708v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v7z8v708v70
+        8v708v708v708v/w6gD+9PL+9PL+9PL+9PL+9PL+8/KdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCd
+        UwCdUwCdUwD+8/L+9PL+9PL+9PL+9PL+9PL/8OoA/vTy/vTy/vTy/vTy/vTy/vPynVMAnVMAnVMAnVMA
+        nVMAnVMAnVMAnVMAnVMAnVMAnVMAnVMA/vPy/vTy/vTy/vTy/vTy/vTy//DqAP708v708v708v708v70
+        8v7z8p1TAJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAP7z8v708v708v708v708v708v/w
+        6gD+9PL+9PL+9PL+9PL+9PL+8/KdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwD+8/L+
+        9PL+9PL+9PL+9PL+9PL/8OoA/vTy/vTy/vTy/vTy/vTy/vPynVMAnVMAnVMAnVMAnVMAnVMAnVMAnVMA
+        nVMAnVMAnVMAnVMA/vPy/vTy/vTy/vTy/vTy/vTy//DqAP708v708v708v708v708v7z8p1TAJ1TAJ1T
+        AJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAJ1TAP7z8v708v708v708v708v708v/w6gD+9PL+9PL+9PL+
+        9PL+9PL+8/KdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwCdUwD+8/L+9PL+9PL+9PL+9PL+
+        9PL/8OoA/vTy/vTy/vTy/vTy/vTy/vPynVMAnVMAnVMA+erq+erq+erq+erq+erq+erqnVMAnVMAnVMA
+        /vPy/vTy/vTy/vTy/vTy/vTy//DqAP708v708v708v708v708v7z8p1TAJ1TAJ1TAPnq6vnq6vnq6vnq
+        6vnq6vnq6p1TAJ1TAJ1TAP7z8v708v708v708v708v708v/w6gD+9PL+9PL+9PL+9PL+9PL+8/KdUwCd
+        UwCdUwD56ur56ur56uqdUwCdUwD56uqdUwCdUwCdUwD+8/L+9PL+9PL+9PL+9PL+9PL/8OoA/vTy/vTy
+        /vTy/vTy/vTy/vPynVMAnVMAnVMA+erq+erq+erqnVMAnVMA+erqnVMAnVMAvpFd/vPy/vTy/vTy/vTy
+        /vTy/vTy//DqAP708v708v708v708v708v7z8p1TAJ1TAJ1TAPnq6vnq6vnq6p1TAJ1TAPnq6p1TAL6R
+        Xf7z8v7z8f708v708v708v708v708v/w6gD+9PL+9PL+9PL+9PL+9PL+8/L+8/L+8/L+8/L+8/L+8/L+
+        8/L+8/L+8/L+8/L+8/L+8/L+8/H+9PL+9PL+9PL+9PL+9PL+9PL/8OoA/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy//DqAP70
+        8v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v70
+        8v708v708v708v/w6gD+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+
+        9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL/8OoA/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy//DqAA==
+</value>
+  </data>
+  <data name="закрытьToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAWCAYAAAA1vze2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVEhL7ZE9DsMgDEZ7NQ4HAwfgjBFT+rNkqVM3mNJP
+        pXFE6RBleAIs/D0ZTpfbnXoSR6I9S65KsK9CVWKM+crPJN77555X2VtrX5KCM6+Yk1idJISQg1gk9fKO
+        c24RYU5iVSITfJIMw5TPWcR3IU/9XDKRiFBSijCv6eNRInXMq0o0sKRkmwR5NHJAjNMbXSQYihySha4S
+        bkj8bRINTZJNQL9O0sieJEQz+k28GXpQ3w8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="выходToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1WBwAAAAAAADYAAAAoAAAAGQAAABgAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTyAP708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v70
+        8v708v708v708v708v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+
+        9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTyAP70
+        8v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v70
+        8v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+
+        9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy/vPy/vPy/vPy/vPy
+        /vPy/vPy/vPy/vPy/vPy/vPy/vPy/vPy/vPy/vPy/vTy/vTy/vTy/vTy/vTyAP708v708v708v708v70
+        8v708v7z8kJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQv7z8v708v708v708v708v70
+        8gD+9PL+9PL+9PL+9PL+9PL+9PL+8/JCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkL+
+        8/L+9PL+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy/vPyQkJCQkJC4MbB+erqsK+vQkJCQkJC
+        sK+v+erq4MbBQkJCQkJC/vPy/vTy/vTy/vTy/vTy/vTyAP708v708v708v708v708v708v7z8kJCQkJC
+        Qk1NTeDGwfnq6rCvr7Cvr/nq6uDGwU1NTUJCQkJCQv7z8v708v708v708v708v708gD+9PL+9PL+9PL+
+        9PL+9PL+9PL+8/JCQkJCQkJCQkJNTU3gxsH56ur56urgxsFNTU1CQkJCQkJCQkL+8/L+9PL+9PL+9PL+
+        9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy/vPyQkJCQkJCQkJCQkJCsK+v+erq+erqsK+vQkJCQkJCQkJC
+        QkJC/vPy/vTy/vTy/vTy/vTy/vTyAP708v708v708v708v708v708v7z8kJCQkJCQkJCQrCvr/nq6uDG
+        weDGwfnq6rCvr0JCQkJCQkJCQv7z8v708v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+9PL+8/JC
+        QkJCQkKwr6/56urgxsFNTU1NTU3gxsH56uqwr69CQkJCQkL+8/L+9PL+9PL+9PL+9PL+9PIA/vTy/vTy
+        /vTy/vTy/vTy/vTy/vPyQkJCQkJCbm5tbm5tTU1NQkJCQkJCTU1Nbm5tbm5tQkJCQkJC/vPy/vTy/vTy
+        /vTy/vTy/vTyAP708v708v708v708v708v708v7z8kJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJC
+        QkJCQkJCQv7z8v708v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+9PL+8/LXwb3Xwb3Xwb3Xwb3X
+        wb3Xwb3Xwb3Xwb3Xwb3Xwb3Xwb3Xwb3+8/L+9PL+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTyAP70
+        8v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v70
+        8v708v708v708v708gD+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+
+        9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PIA/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy
+        /vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTy/vTyAP708v708v708v708v70
+        8v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v708v70
+        8gD+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+9PL+
+        9PL+9PL+9PL+9PL+9PL+9PIA
+</value>
+  </data>
+  <data name="втавитьToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD///////////////////////+wmIBgSDBgSDBgSDBgSDBg
+        SDBgSDBgSDBgSDBgSDBgSDBgSDBgSDD///////////////////////8A////////////////////////
+        sJiA//Dw8ODgwKCQ8ODg8ODgwKCQ8ODg8ODgwKCA//j/8ODgYEgw////////////////////////AP//
+        /////////////////////7CYgP/48P/48MCgkP/48P/48MCgkP/48P/48MCgkP/w8PDg4GBIMP//////
+        /////////////////wD///////////////////////+wmJDg0MDQwLDAqJDAqJDAqJDAqJDAqJDAqJDA
+        qJDAoJDAoJBgSDD///////////////////////8A////////////////////////wKCQ////////wKiQ
+        //jw//jwwKiQ//jw//jwwKiQ//jw8ODgYEgw////////////////////////AP//////////////////
+        /////7CYgP/48P/48MCgkP/48P/48MCgkP/48P/48MCokP/48PDg4GBIMP//////////////////////
+        /wD///////////////////////+wmJDg0MDQwLDAqJDAqJDAqJDAqJDAqJDAqJDAqJDAoJDAoJBgSDD/
+        //////////////////////8A////////////////////////wKCQ////////wKiQ//jw//jwwKiQ//jw
+        //jwwKiQ//jw8ODgYEgw////////////////////////AP///////////////////////8CokP//////
+        /8CooP/48P/48MCooP/48P/48MCokP/48PDg4GBIMP///////////////////////wD/////////////
+        ///////////AqKDg0MDQwLDAqJDAqJDAqJDAqJDAqJDAqJDAqJDAoJDAoJBgSDD/////////////////
+        //////8A////////////////////////wLCg////////wKiQ//Dw//DgwKiQ//Dw//Dg0MCw//jw8ODg
+        YEgw////////////////////////AP///////////////////////8CwoP///////8CooP///////8Co
+        oP///////+DQwP/48P/w8GBIMP///////////////////////wD////////////////////////AsKDA
+        sKDAsKDAsKDAqKDAqJAAAACwoJCwoJCwmJCwmICwmICwmID///////////////////////8A////////
+        ////////////////////////////////////AAAAAAAAAAAA////////////////////////////////
+        ////////////AP///////////////////////7CYgGBIMGBIMGBIMGBIMGBIMAAAAGBIMGBIMGBIMGBI
+        MGBIMGBIMP///////////////////////wD///////////////////////+wmID/8PDw4ODAoJDw4ODw
+        4ODAoJDw4ODw4ODAoID/+P/w4OBgSDD///////////////////////8A////////////////////////
+        sJiA//jw//jwwKCQ//jw//jwwKCQ//jw//jwwKCQ//Dw8ODgYEgw////////////////////////AP//
+        /////////////////////7CYkODQwNDAsMCokMCokMCokMCokMCokMCokMCokMCgkMCgkGBIMP//////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="вставитьСтрокуВКонецToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD///////////////////////+wmIBgSDBgSDBgSDBgSDBg
+        SDBgSDBgSDBgSDBgSDBgSDBgSDBgSDD///////////////////////8A////////////////////////
+        sJiA//Dw8ODgwKCQ8ODg8ODgwKCA8ODg8ODgwKCA//j/8ODgYEgw////////////////////////AP//
+        /////////////////////7CYgP/48P/48MCgkP/48P/48MCgkP/48P/48MCgkP/w8PDg4GBIMP//////
+        /////////////////wD///////////////////////+wmJDg0MDQwLDAqJDAqJDAqJAAAADAqJDAqJDA
+        qJDAoJDAoJBgSDD///////////////////////8A////////////////////////////////////////
+        ////AAAAAAAAAAAA////////////////////////////////////////////AP//////////////////
+        /////7CYgGBIMGBIMGBIMGBIMGBIMAAAAGBIMGBIMGBIMGBIMGBIMGBIMP//////////////////////
+        /wD///////////////////////+wmID/8PDw4ODAoJDw4ODw4ODAoJDw4ODw4ODAoID/+P/w4OBgSDD/
+        //////////////////////8A////////////////////////sJiA//jw//jwwKCQ//jw//jwwKCQ//jw
+        //jwwKCQ//Dw8ODgYEgw////////////////////////AP///////////////////////7CYkODQwNDA
+        sMCokMCokMCokMCokMCokMCokMCokMCgkMCgkGBIMP///////////////////////wD/////////////
+        ///////////AoJD////////AqJD/+PD/+PDAqJD/+PD/+PDAqJD/+PDw4OBgSDD/////////////////
+        //////8A////////////////////////sJiA//jw//jwwKCQ//jw//jwwKCQ//jw//jwwKiQ//jw8ODg
+        YEgw////////////////////////AP///////////////////////7CYkODQwNDAsMCokMCokMCokMCo
+        kMCokMCokMCokMCgkMCgkGBIMP///////////////////////wD////////////////////////AoJD/
+        ///////AqJD/+PD/+PDAqJD/+PD/+PDAqJD/+PDw4OBgSDD///////////////////////8A////////
+        ////////////////wKiQ////////wKig//jw//jwwKig//jw//jwwKiQ//jw8ODgYEgw////////////
+        ////////////AP///////////////////////8CooODQwNDAsMCokMCokMCokMCokMCokMCokMCokMCg
+        kMCgkGBIMP///////////////////////wD////////////////////////AsKD////////AqJD/8PD/
+        8ODAqJD/8PD/8ODQwLD/+PDw4OBgSDD///////////////////////8A////////////////////////
+        wLCg////////wKig////////wKig////////4NDA//jw//DwYEgw////////////////////////AP//
+        /////////////////////8CwoMCwoMCwoMCwoMCooMCokLCgkLCgkLCgkLCYkLCYgLCYgLCYgP//////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="вставитьСтрокуВышеToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        sJiAYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgw////////////////////////AP//
+        /////////////////////7CYgP/w8PDg4MCgkPDg4PDg4MCgkPDg4PDg4MCgkPDg4PDg4GBIMP//////
+        /////////////////wD///////////////////////+wmID/+PD/+PDAoJD/+PD/+PDAoJD/+PD/+PDA
+        oJD/8PD/+P9gSDD///////////////////////8A////////////////////////sJiQ4NDA0MCwwKiQ
+        wKiQwKiQwKiQwKiQwKiQwKiQwKCQwKCAYEgw////////////////////////AP//////////////////
+        /////8CgkP///////8CokP/48P/48MCokP/48P/48MCokP/w8PDg4GBIMP//////////////////////
+        /wD////////////////////////AqJD////////AqKD/+PD/+PDAqKD/+PD/+PDAqKD/8PD/+P9gSDD/
+        //////////////////////8A////////////////////////4IhgsGBAsGBAsGBAsGBAsGAwsGAwsGAw
+        sFgwsFgwsFgwsFgwsFgw////////////////////////AP///////////////////////+CIYPCwkPCg
+        gPCggPCggPCgcPCgcPCYcPCYcPCQcPCQYPCQYLBYMP///////////////////////wD/////////////
+        ///////////giGDwsJDwsJDwsJDwqJDwqIDwqIDwqIDwqIDwoIDwoHDwoHCwWDD/////////////////
+        //////8A////////////////////////4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg
+        0HhQ////////////////////////AP///////////////////////8CooP///////8CokP/w8P/w4MCo
+        kP/w8P/w4MCokP/w8PDg4GBIMP///////////////////////wD////////////////////////AsKD/
+        ///////AqKD/+PD/+PBgSDD/8PD/+PDAqKD/8PD/+P9gSDD///////////////////////8A////////
+        ////////////////wLCgwLCgwKigwKigwKiQwKiQYEgwsKCQsKCQsJiQsJiQsJiAsJiA////////////
+        ////////////AP///////////////////////////////////////////////2BIMP//////////////
+        /////////////////////////////////wD///////////////////////////////////////////+A
+        cGBgSDBgSDD///////////////////////////////////////////8A////////////////////////
+        ////////////////////4NzXgGhg1tDK////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="вставитьСтрокуНижеToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        /////////////////////////////////////////97WznBQQM/Dtv//////////////////////////
+        /////////////////wD///////////////////////////////////////////+QcGBwUEBwUED/////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////YEgw////////////////////////////////////////////////AP//////////////////
+        /////7CYgGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMP//////////////////////
+        /wD///////////////////////+wmID/8PDw4ODAoJDw4ODw4OBgSDDw4ODw4ODAoJDw4ODw4OBgSDD/
+        //////////////////////8A////////////////////////sJiQ//jw//jwwKCQ//jw//jwwKCQ//jw
+        //jwwKCQ//Dw//j/YEgw////////////////////////AP///////////////////////+CIYLBgQLBg
+        QLBgQLBgQLBgMLBgMLBgMLBYMLBYMLBYMLBYMLBYMP///////////////////////wD/////////////
+        ///////////giGDwsJDwoIDwoIDwoIDwoHDwoHDwmHDwmHDwkHDwkGDwkGCwWDD/////////////////
+        //////8A////////////////////////4Ihg8LCQ8LCQ8LCQ8KiQ8KiA8KiA8KiA8KiA8KCA8KBw8KBw
+        sFgw////////////////////////AP///////////////////////+CIYOCIYOCIYOCIYOCIYOCIYOCI
+        YOCIYOCIYOCIYOCIYOCIYNB4UP///////////////////////wD////////////////////////AqJD/
+        ///////AqJD/+PD/+PDAqJD/+PD/+PDAqJD/8PDw4OBgSDD///////////////////////8A////////
+        ////////////////wKiQ////////wKig//jw//jwwKig//jw//jwwKig//Dw//j/YEgw////////////
+        ////////////AP///////////////////////8CooODQwNDAsMCokMCokMCokMCokMCokMCokMCokMCg
+        kMCggGBIMP///////////////////////wD////////////////////////AsKD////////AqJD/8PD/
+        8ODAqJD/8PD/8ODAqJD/8PDw4OBgSDD///////////////////////8A////////////////////////
+        wLCg////////wKig////////wKig////////wKig//////j/YEgw////////////////////////AP//
+        /////////////////////8CwoMCwoMCwoMCwoMCooMCokMCokLCgkLCgkLCgkLCYkLCYgLCYgP//////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="удалитьСтрокуToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD///////////////////////+wmIBgSDBgSDBgSDBgSDBgSDBgSDBgSDBgSDBg
+        SDBgSDBgSDBgSDD///////////////////////8A////////////////////////sJiA//Dw8ODgwKCQ
+        8ODg8ODgwKCQ8ODg8ODgwKCA//j/8ODgYEgw////////////////////////AP//////////////////
+        /////7CYgP/48P/48MCgkP/48P/48MCgkP/48P/48MCgkP/w8PDg4GBIMP//////////////////////
+        /wD///////////////////////+wmJDg0MDQwLDAqJDAqJDAqJDAqJDAqJDAqJDAqJDAoJDAoJBgSDD/
+        //////////////////////8A////////////////////////wKCQ+fn7CyGOCyGOmqHQ//jwwKiQ//jw
+        7enrCyGO//jw8ODgYEgw////////////////////////AP///////////////////////7CYgP/48M7P
+        4Qshjgshjpqh0MCgkNTT4wshjqGnyv/48PDg4GBIMP///////////////////////wD/////////////
+        //////////+wmJDT39nQwLC+raEyRJwLIY4LIY4LIY6kmqKKfnPAoJDAoJBgSDD/////////////////
+        //////8A////////////////CyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGO
+        CyGOCyGOCyGO////////////////AP///////////////////////8CokOX7/v///76trQshjgshjgsh
+        jgshjtTT48CokP/48PDg4GBIMP///////////////////////wD////////////////////////AqKDg
+        0MDNv7MLIY4LIY6LiKbAqJC2qJwLIY6kmqLAoJDAoJBgSDD///////////////////////8A////////
+        ////////////////wLCg////m6XWCyGOmp7Q//DgwKiQ//Dw8OXVCyGO//jw8ODgYEgw////////////
+        ////////////AP///////////////////////8CwoP///////8CooP///////8CooP///////+DQwP/4
+        8P/w8GBIMP///////////////////////wD////////////////////////AsKDAsKDAsKDAsKDAqKDA
+        qJDAqJCwoJCwoJCwmJCwmICwmICwmID///////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="вставитьСтолбецВНачалоToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0+BwAAAAAAADYAAAAoAAAAFwAAABkAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////AAAA////////////////////////////////////////////////////////////////////////
+        ////////////////////AAAA////////////////////////////////////////////////////////
+        ////////////////////////////////////AAAA////////////////////////////////////////
+        ////////////////////////////////////////////////////AAAA////////////////////////
+        ////////////////////////////////////////////////////////////////////AAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////AAAA////////YEgwYEgwYEgwYEgw////sJiAYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgw
+        YEgwYEgw////////////AAAA////////wKCQ8ODg8ODgYEgw////sJiA//Dw8ODgwKCQ8ODg8ODgwKCQ
+        8ODg8ODgwKCQ8ODg8ODgYEgw////////////AAAA////////wKCQ//Dw//j/YEgw////sJiA//jw//jw
+        wKCQ//jw//jwwKCQ//jw//jwwKCQ//Dw//j/YEgw////////////AAAA////////wKiQwKCQwKCAYEgw
+        ////sJiQ4NDA0MCwwKiQwKiQwKiQwKiQwKiQwKiQwKiQwKCQwKCAYEgw////////////AAAA////////
+        wKiQ//jw8ODgYEgw////sKCQ//////DgwKiQ//jw//jwwKiQ//jw//jwwKiQ//jw8ODgYEgw////////
+        ////AAAA////////wKiQ//jw8ODgYEgwAAAAsKCQ//////DwwKiQ//jw//jwwKiQ//jw//jwwKiQ//jw
+        8ODgYEgw////////////AAAA////////wKiQwKCQwKCQAAAAAAAAAAAAwKigwKiQwKiQwKigwKiQwKiQ
+        wKCQwKiQwKiQwKCQwKCQYEgw////////////AAAA////////wKiQ//jw8ODgYEgwAAAAwKiQ//////Dg
+        wKiQ//jw//jwwKiQ//jw//jwwKiQ//jw8ODgYEgw////////////AAAA////////wKiQ//jw8ODgYEgw
+        ////wKig//////DwwKiQ//jw//jwwKiQ//jw//jwwKiQ//jw8ODgYEgw////////////AAAA////////
+        wKiQwKCQwKCQYEgw////wLCgwKigwKiQwKiQwKigwKiQwKiQwKCQwKiQwKiQwKCQwKCQYEgw////////
+        ////AAAA////////0MCw//jw8ODgYEgw////wLCg////////0MCw////////0MCw//jw////0MCw//jw
+        8ODgYEgw////////////AAAA////////4NDA//jw//DwYEgw////wLCg////////4NDA////////4NDA
+        //jw////4NDA//jw//DwYEgw////////////AAAA////////sJiQsJiAsJiAsJiA////wLCgwLCgwLCg
+        wKigwKiQwKCQsJiQsJiAwKCQsJiQsJiAsJiAsJiA////////////AAAA////////////////////////
+        ////////////////////////////////////////////////////////////////////AAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////AAAA////////////////////////////////////////////////////////////////////////
+        ////////////////////AAAA////////////////////////////////////////////////////////
+        ////////////////////////////////////AAAA////////////////////////////////////////
+        ////////////////////////////////////////////////////AAAA////////////////////////
+        ////////////////////////////////////////////////////////////////////AAAA
+</value>
+  </data>
+  <data name="вставитьСтолбецВКонецToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0+BwAAAAAAADYAAAAoAAAAFwAAABkAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////AAAA////////////////////////////////////////////////////////////////////////
+        ////////////////////AAAA////////////////////////////////////////////////////////
+        ////////////////////////////////////AAAA////////////////////////////////////////
+        ////////////////////////////////////////////////////AAAA////////////////////////
+        ////////////////////////////////////////////////////////////////////AAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////AAAA////////////sJiAYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgw////YEgw
+        YEgwYEgwYEgw////////AAAA////////////sJiA//Dw8ODgwKCQ8ODg8ODgwKCQ8ODg8ODgwKCQ8ODg
+        8ODgYEgw////wKCQ8ODg8ODgYEgw////////AAAA////////////sJiA//jw//jwwKCQ//jw//jwwKCQ
+        //jw//jwwKCQ//Dw//j/YEgw////wKCQ//Dw//j/YEgw////////AAAA////////////sJiQ4NDA0MCw
+        wKiQwKiQwKiQwKiQwKiQwKiQwKiQwKCQwKCAYEgw////wKiQwKCQwKCAYEgw////////AAAA////////
+        ////sKCQ//////DgwKiQ//jw//jwwKiQ//jw//jwwKiQ//jw8ODgYEgw////wKiQ//jw8ODgYEgw////
+        ////AAAA////////////sKCQ//////DwwKiQ//jw//jwwKiQ//jw//jwwKiQ//jw8ODgYEgwAAAAwKiQ
+        //jw8ODgYEgw////////AAAA////////////sKCQwKigwKiQwKiQwKigwKiQwKiQwKCQwKiQwKiQwKCQ
+        wKCQAAAAAAAAAAAAwKCQwKCAYEgw////////AAAA////////////wKiQ//////DgwKiQ//jw//jwwKiQ
+        //jw//jwwKiQ//jw8ODgYEgwAAAAwKiQ//jw8ODgYEgw////////AAAA////////////wKig//////Dw
+        wKiQ//jw//jwwKiQ//jw//jwwKiQ//jw8ODgYEgw////wKiQ//jw8ODgYEgw////////AAAA////////
+        ////wLCgwKigwKiQwKiQwKigwKiQwKiQwKCQwKiQwKiQwKCQwKCQYEgw////wKiQwKCQwKCQYEgw////
+        ////AAAA////////////wLCg////////0MCw////////0MCw//jw////0MCw//jw8ODgYEgw////0MCw
+        //jw8ODgYEgw////////AAAA////////////wLCg////////4NDA////////4NDA//jw////4NDA//jw
+        //DwYEgw////4NDA//jw//DwYEgw////////AAAA////////////wLCgwLCgwLCgwKigwKiQwKCQsJiQ
+        sJiAwKCQsJiQsJiAsJiAsJiA////sJiQsJiAsJiAsJiA////////AAAA////////////////////////
+        ////////////////////////////////////////////////////////////////////AAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////AAAA////////////////////////////////////////////////////////////////////////
+        ////////////////////AAAA////////////////////////////////////////////////////////
+        ////////////////////////////////////AAAA////////////////////////////////////////
+        ////////////////////////////////////////////////////AAAA////////////////////////
+        ////////////////////////////////////////////////////////////////////AAAA
+</value>
+  </data>
+  <data name="вставитьСтолбецСлеваToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD///////////////////////////////+wmIBgSDBgSDDQeFCwWDCwWDCwWDBg
+        SDBgSDBgSDBgSDBgSDBgSDD///////////////8A////////////////////////////////sJiA//j/
+        8ODg4Ihg8KBw8JBgsFgw//j/8ODgwKCA//j/8ODgYEgw////////////////AP//////////////////
+        /////////////7CYkP/w8P/w8OCIYPCgcPCQYLBYMP/w8P/w8MCgkP/w8PDg4GBIMP//////////////
+        /wD///////////////////////////////+wmJDAqKDAqJDgiGDwoIDwkHCwWDDAqKDAqJDAqJDAoJDA
+        oJBgSDD///////////////8A////////////////////////////////sKCQ//jw//Dg4Ihg8KiA8Jhw
+        sFgw//jw//jwwKiQ//jw8ODgYEgw////////////////AP///////////////////9bQymBIMP///7Cg
+        kP/w8P/w8OCIYPCogPCYcLBgMP/48P/48MCokP/48PDg4GBIMP///////////////wD/////////////
+        //////+AaGBgSDBgSDBgSDBgSDDAqJDgiGDwqIDwoHCwYDDAqKDAqJDAqJDAoJDAoJBgSDD/////////
+        //////8A////////////////////4NzXgHBg////wKiQ//jw//Dg4Ihg8KiA8KBwsGAw//jw//jwwKiQ
+        //jw8ODgYEgw////////////////AP///////////////////////////////8CokP/48P/w8OCIYPCo
+        kPCggLBgQP/48P/48MCokP/48PDg4GBIMP///////////////wD/////////////////////////////
+        ///AqKDAqKDAqJDgiGDwsJDwoICwYEDAqKDAqJDAqJDAoJDAoJBgSDD///////////////8A////////
+        ////////////////////////wKig////////4Ihg8LCQ8KCAsGBA////////0MCw//jw8ODgYEgw////
+        ////////////AP///////////////////////////////8CwoP///////+CIYPCwkPCwkLBgQP//////
+        /+DQwP/48P/w8GBIMP///////////////wD////////////////////////////////AsKDAsKDAqKDg
+        iGDgiGDgiGDgiGDAqJDAoJCwmJCwmICwmICwmID///////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="вставитьСтолбецСправаToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1yBgAAAAAAADYAAAAoAAAAGQAAABUAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        /////////////////7CYgGBIMGBIMGBIMGBIMGBIMNB4ULBYMLBYMLBYMGBIMGBIMGBIMP//////////
+        /////////////////wD///////////////////+wmID/+P/w4ODAoID/+P/w4ODgiGDwoHDwkGCwWDD/
+        +P/w4OBgSDD///////////////////////////8A////////////////////sJiQ//////DwwKCQ//Dw
+        //Dw4Ihg8KBw8JBgsFgw//Dw8ODgYEgw////////////////////////////AP//////////////////
+        /7CgkMCooMCokMCokMCooMCokOCIYPCggPCQcLBYMMCgkMCgkGBIMP//////////////////////////
+        /wD///////////////////+woJD/////8ODAqJD/+PD/+PDgiGDwqIDwmHCwWDD/+PDw4OBgSDD/////
+        //////////////////////8A////////////////////sKCQ//////DwwKiQ//jw//jw4Ihg8KiA8Jhw
+        sGAw//jw8ODgYEgw////cFBAz8O2////////////////AP///////////////////8CokMCooMCokMCo
+        kMCooMCokOCIYPCogPCgcLBgMMCgkGBIMGBIMGBIMHBQQHBQQP///////////////wD/////////////
+        ///////AqJD/////8ODAqJD/+PD/+PDgiGDwqIDwoHCwYDD/+PDw4OBgSDD///+QcGDe1s7/////////
+        //////8A////////////////////wKig//////DwwKiQ//jw//jw4Ihg8KiQ8KCAsGBA//jw8ODgYEgw
+        ////////////////////////////AP///////////////////8CwoMCooMCokMCokMCooMCokOCIYPCw
+        kPCggLBgQMCgkMCgkGBIMP///////////////////////////wD////////////////////AsKD/////
+        ///QwLD////////giGDwsJDwoICwYED/+PDw4OBgSDD///////////////////////////8A////////
+        ////////////wLCg////////4NDA////////4Ihg8LCQ8LCQsGBA//jw//DwYEgw////////////////
+        ////////////AP///////////////////8CwoMCwoMCwoMCooMCokMCokOCIYOCIYOCIYOCIYLCYkLCY
+        gLCYgP///////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A
+</value>
+  </data>
+  <data name="удалитьСтолбецToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////CyGO////////////////////////////////////////////////////AP//
+        /////////////////////////////////////////wshjv//////////////////////////////////
+        /////////////////wD///////////////////////+wmIBgSDBgSDBgSDBgSDALIY5gSDBgSDBgSDBg
+        SDBgSDBgSDBgSDD///////////////////////8A////////////////////////sJiA//Dw8ODgwKCQ
+        8ODgCyGOwKCQ8ODg8ODgwKCA//j/8ODgYEgw////////////////////////AP//////////////////
+        /////7CYgP/48P/48MCgkP/48AshjsCgkP/48P/48MCgkP/w8PDg4GBIMP//////////////////////
+        /wD///////////////////////+wmJDg0MDQwLDAqJDAqJALIY7AqJDAqJDAqJDAqJDAoJDAoJBgSDD/
+        //////////////////////8A////////////////////////waWYCyGOCyGOfn6m//jwCyGOwKiQ7enr
+        CyGOwKiQ//jw8ODgYEgw////////////////////////AP///////////////////////7CYgM7P4Qsh
+        jgshjpqh0AshjquZowshjqGnysCokP/48PDg4GBIMP///////////////////////wD/////////////
+        //////////+2vbzg0MDKv7kLIY4LIY4LIY4LIY6kmqKKfnPAqJDAoJDAoJBgSDD/////////////////
+        //////8A////////////////////////wMK8////////wa2dCyGOCyGOb3Gb//jw//jwwKiQ//jw8ODg
+        YEgw////////////////////////AP///////////////////////8DHvP///+/w9gshjgshjgshjgsh
+        jtTT4//48MCokP/48PDg4GBIMP///////////////////////wD////////////////////////AqKDb
+        zcILIY4nNo6LiKYLIY62qJwLIY6kmqLAqJDAoJDAoJBgSDD///////////////////////8A////////
+        ////////////////wLCgm6XWCyGOfn6m//DwCyGOwKiQ8OXiCyGO0MCw//jw8ODgYEgw////////////
+        ////////////AP///////////////////////8CwoP///////8CooP///wshjsCooP///////+DQwP/4
+        8P/w8GBIMP///////////////////////wD////////////////////////AsKDAsKDAsKDAsKDAqKAL
+        IY7AqJCwoJCwoJCwmJCwmICwmICwmID///////////////////////8A////////////////////////
+        ////////////////////CyGO////////////////////////////////////////////////////AP//
+        /////////////////////////////////////////wshjv//////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>408, 17</value>
+  </metadata>
+  <data name="вставитьСтрокуToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        sJiAYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgwYEgw////////////////////////AP//
+        /////////////////////7CYgP/w8PDg4MCgkPDg4PDg4MCgkPDg4PDg4MCgkPDg4PDg4GBIMP//////
+        /////////////////wD///////////////////////+wmID/+PD/+PDAoJD/+PD/+PDAoJD/+PD/+PDA
+        oJD/8PD/+P9gSDD///////////////////////8A////////////////////////sJiQ4NDA0MCwwKiQ
+        wKiQwKiQwKiQwKiQwKiQwKiQwKCQwKCAYEgw////////////////////////AP//////////////////
+        /////8CgkP///////8CokP/48P/48MCokP/48P/48MCokP/w8PDg4GBIMP//////////////////////
+        /wD////////////////////////AqJD////////AqKD/+PD/+PDAqKD/+PD/+PDAqKD/8PD/+P9gSDD/
+        //////////////////////8A////////////////////////4IhgsGBAsGBAsGBAsGBAsGAwsGAwsGAw
+        sFgwsFgwsFgwsFgwsFgw////////////////////////AP///////////////////////+CIYPCwkPCg
+        gPCggPCggPCgcPCgcPCYcPCYcPCQcPCQYPCQYLBYMP///////////////////////wD/////////////
+        ///////////giGDwsJDwsJDwsJDwqJDwqIDwqIDwqIDwqIDwoIDwoHDwoHCwWDD/////////////////
+        //////8A////////////////////////4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg4Ihg
+        0HhQ////////////////////////AP///////////////////////8CooP///////8CokP/w8P/w4MCo
+        kP/w8P/w4MCokP/w8PDg4GBIMP///////////////////////wD////////////////////////AsKD/
+        ///////AqKD/+PD/+PBgSDD/8PD/+PDAqKD/8PD/+P9gSDD///////////////////////8A////////
+        ////////////////wLCgwLCgwKigwKigwKiQwKiQYEgwsKCQsKCQsJiQsJiQsJiAsJiA////////////
+        ////////////AP///////////////////////////////////////////////2BIMP//////////////
+        /////////////////////////////////wD///////////////////////////////////////////+A
+        cGBgSDBgSDD///////////////////////////////////////////8A////////////////////////
+        ////////////////////4NzXgGhg1tDK////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="вставитьСтолбецToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        /////////////////////////////////////////97WznBQQM/Dtv//////////////////////////
+        /////////////////wD///////////////////////////////////////////+QcGBwUEBwUED/////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////YEgw////////////////////////////////////////////////AP//////////////////
+        /////7CYgGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMGBIMP//////////////////////
+        /wD///////////////////////+wmID/8PDw4ODAoJDw4ODw4OBgSDDw4ODw4ODAoJDw4ODw4OBgSDD/
+        //////////////////////8A////////////////////////sJiQ//jw//jwwKCQ//jw//jwwKCQ//jw
+        //jwwKCQ//Dw//j/YEgw////////////////////////AP///////////////////////+CIYLBgQLBg
+        QLBgQLBgQLBgMLBgMLBgMLBYMLBYMLBYMLBYMLBYMP///////////////////////wD/////////////
+        ///////////giGDwsJDwoIDwoIDwoIDwoHDwoHDwmHDwmHDwkHDwkGDwkGCwWDD/////////////////
+        //////8A////////////////////////4Ihg8LCQ8LCQ8LCQ8KiQ8KiA8KiA8KiA8KiA8KCA8KBw8KBw
+        sFgw////////////////////////AP///////////////////////+CIYOCIYOCIYOCIYOCIYOCIYOCI
+        YOCIYOCIYOCIYOCIYOCIYNB4UP///////////////////////wD////////////////////////AqJD/
+        ///////AqJD/+PD/+PDAqJD/+PD/+PDAqJD/8PDw4OBgSDD///////////////////////8A////////
+        ////////////////wKiQ////////wKig//jw//jwwKig//jw//jwwKig//Dw//j/YEgw////////////
+        ////////////AP///////////////////////8CooODQwNDAsMCokMCokMCokMCokMCokMCokMCokMCg
+        kMCggGBIMP///////////////////////wD////////////////////////AsKD////////AqJD/8PD/
+        8ODAqJD/8PD/8ODAqJD/8PDw4OBgSDD///////////////////////8A////////////////////////
+        wLCg////////wKig////////wKig////////wKig//////j/YEgw////////////////////////AP//
+        /////////////////////8CwoMCwoMCwoMCwoMCooMCokMCokLCgkLCgkLCgkLCYkLCYgLCYgP//////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="удалитьСтрокуToolStripMenuItem1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD///////////////////////+wmIBgSDBgSDBgSDBgSDBgSDBgSDBgSDBgSDBg
+        SDBgSDBgSDBgSDD///////////////////////8A////////////////////////sJiA//Dw8ODgwKCQ
+        8ODg8ODgwKCQ8ODg8ODgwKCA//j/8ODgYEgw////////////////////////AP//////////////////
+        /////7CYgP/48P/48MCgkP/48P/48MCgkP/48P/48MCgkP/w8PDg4GBIMP//////////////////////
+        /wD///////////////////////+wmJDg0MDQwLDAqJDAqJDAqJDAqJDAqJDAqJDAqJDAoJDAoJBgSDD/
+        //////////////////////8A////////////////////////wKCQ+fn7CyGOCyGOmqHQ//jwwKiQ//jw
+        7enrCyGO//jw8ODgYEgw////////////////////////AP///////////////////////7CYgP/48M7P
+        4Qshjgshjpqh0MCgkNTT4wshjqGnyv/48PDg4GBIMP///////////////////////wD/////////////
+        //////////+wmJDT39nQwLC+raEyRJwLIY4LIY4LIY6kmqKKfnPAoJDAoJBgSDD/////////////////
+        //////8A////////////////CyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGOCyGO
+        CyGOCyGOCyGO////////////////AP///////////////////////8CokOX7/v///76trQshjgshjgsh
+        jgshjtTT48CokP/48PDg4GBIMP///////////////////////wD////////////////////////AqKDg
+        0MDNv7MLIY4LIY6LiKbAqJC2qJwLIY6kmqLAoJDAoJBgSDD///////////////////////8A////////
+        ////////////////wLCg////m6XWCyGOmp7Q//DgwKiQ//Dw8OXVCyGO//jw8ODgYEgw////////////
+        ////////////AP///////////////////////8CwoP///////8CooP///////8CooP///////+DQwP/4
+        8P/w8GBIMP///////////////////////wD////////////////////////AsKDAsKDAsKDAsKDAqKDA
+        qJDAqJCwoJCwoJCwmJCwmICwmICwmID///////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="вставитьСтолбецСлеваToolStripMenuItem1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD///////////////////////////////+wmIBgSDBgSDDQeFCwWDCwWDCwWDBg
+        SDBgSDBgSDBgSDBgSDBgSDD///////////////8A////////////////////////////////sJiA//j/
+        8ODg4Ihg8KBw8JBgsFgw//j/8ODgwKCA//j/8ODgYEgw////////////////AP//////////////////
+        /////////////7CYkP/w8P/w8OCIYPCgcPCQYLBYMP/w8P/w8MCgkP/w8PDg4GBIMP//////////////
+        /wD///////////////////////////////+wmJDAqKDAqJDgiGDwoIDwkHCwWDDAqKDAqJDAqJDAoJDA
+        oJBgSDD///////////////8A////////////////////////////////sKCQ//jw//Dg4Ihg8KiA8Jhw
+        sFgw//jw//jwwKiQ//jw8ODgYEgw////////////////AP///////////////////9bQymBIMP///7Cg
+        kP/w8P/w8OCIYPCogPCYcLBgMP/48P/48MCokP/48PDg4GBIMP///////////////wD/////////////
+        //////+AaGBgSDBgSDBgSDBgSDDAqJDgiGDwqIDwoHCwYDDAqKDAqJDAqJDAoJDAoJBgSDD/////////
+        //////8A////////////////////4NzXgHBg////wKiQ//jw//Dg4Ihg8KiA8KBwsGAw//jw//jwwKiQ
+        //jw8ODgYEgw////////////////AP///////////////////////////////8CokP/48P/w8OCIYPCo
+        kPCggLBgQP/48P/48MCokP/48PDg4GBIMP///////////////wD/////////////////////////////
+        ///AqKDAqKDAqJDgiGDwsJDwoICwYEDAqKDAqJDAqJDAoJDAoJBgSDD///////////////8A////////
+        ////////////////////////wKig////////4Ihg8LCQ8KCAsGBA////////0MCw//jw8ODgYEgw////
+        ////////////AP///////////////////////////////8CwoP///////+CIYPCwkPCwkLBgQP//////
+        /+DQwP/48P/w8GBIMP///////////////wD////////////////////////////////AsKDAsKDAqKDg
+        iGDgiGDgiGDgiGDAqJDAoJCwmJCwmICwmICwmID///////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <data name="вставитьСтолбецСправаToolStripMenuItem1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1yBgAAAAAAADYAAAAoAAAAGQAAABUAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        /////////////////7CYgGBIMGBIMGBIMGBIMGBIMNB4ULBYMLBYMLBYMGBIMGBIMGBIMP//////////
+        /////////////////wD///////////////////+wmID/+P/w4ODAoID/+P/w4ODgiGDwoHDwkGCwWDD/
+        +P/w4OBgSDD///////////////////////////8A////////////////////sJiQ//////DwwKCQ//Dw
+        //Dw4Ihg8KBw8JBgsFgw//Dw8ODgYEgw////////////////////////////AP//////////////////
+        /7CgkMCooMCokMCokMCooMCokOCIYPCggPCQcLBYMMCgkMCgkGBIMP//////////////////////////
+        /wD///////////////////+woJD/////8ODAqJD/+PD/+PDgiGDwqIDwmHCwWDD/+PDw4OBgSDD/////
+        //////////////////////8A////////////////////sKCQ//////DwwKiQ//jw//jw4Ihg8KiA8Jhw
+        sGAw//jw8ODgYEgw////cFBAz8O2////////////////AP///////////////////8CokMCooMCokMCo
+        kMCooMCokOCIYPCogPCgcLBgMMCgkGBIMGBIMGBIMHBQQHBQQP///////////////wD/////////////
+        ///////AqJD/////8ODAqJD/+PD/+PDgiGDwqIDwoHCwYDD/+PDw4OBgSDD///+QcGDe1s7/////////
+        //////8A////////////////////wKig//////DwwKiQ//jw//jw4Ihg8KiQ8KCAsGBA//jw8ODgYEgw
+        ////////////////////////////AP///////////////////8CwoMCooMCokMCokMCooMCokOCIYPCw
+        kPCggLBgQMCgkMCgkGBIMP///////////////////////////wD////////////////////AsKD/////
+        ///QwLD////////giGDwsJDwoICwYED/+PDw4OBgSDD///////////////////////////8A////////
+        ////////////wLCg////////4NDA////////4Ihg8LCQ8LCQsGBA//jw//DwYEgw////////////////
+        ////////////AP///////////////////8CwoMCwoMCwoMCooMCokMCokOCIYOCIYOCIYOCIYLCYkLCY
+        gLCYgP///////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AP//
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A
+</value>
+  </data>
+  <data name="удалитьСтолбецToolStripMenuItem1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0KBwAAAAAAADYAAAAoAAAAGQAAABcAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////AP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////wD/////////////////////////////////////////////
+        //////////////////////////////////////////////////////8A////////////////////////
+        ////////////////////CyGO////////////////////////////////////////////////////AP//
+        /////////////////////////////////////////wshjv//////////////////////////////////
+        /////////////////wD///////////////////////+wmIBgSDBgSDBgSDBgSDALIY5gSDBgSDBgSDBg
+        SDBgSDBgSDBgSDD///////////////////////8A////////////////////////sJiA//Dw8ODgwKCQ
+        8ODgCyGOwKCQ8ODg8ODgwKCA//j/8ODgYEgw////////////////////////AP//////////////////
+        /////7CYgP/48P/48MCgkP/48AshjsCgkP/48P/48MCgkP/w8PDg4GBIMP//////////////////////
+        /wD///////////////////////+wmJDg0MDQwLDAqJDAqJALIY7AqJDAqJDAqJDAqJDAoJDAoJBgSDD/
+        //////////////////////8A////////////////////////waWYCyGOCyGOfn6m//jwCyGOwKiQ7enr
+        CyGOwKiQ//jw8ODgYEgw////////////////////////AP///////////////////////7CYgM7P4Qsh
+        jgshjpqh0AshjquZowshjqGnysCokP/48PDg4GBIMP///////////////////////wD/////////////
+        //////////+2vbzg0MDKv7kLIY4LIY4LIY4LIY6kmqKKfnPAqJDAoJDAoJBgSDD/////////////////
+        //////8A////////////////////////wMK8////////wa2dCyGOCyGOb3Gb//jw//jwwKiQ//jw8ODg
+        YEgw////////////////////////AP///////////////////////8DHvP///+/w9gshjgshjgshjgsh
+        jtTT4//48MCokP/48PDg4GBIMP///////////////////////wD////////////////////////AqKDb
+        zcILIY4nNo6LiKYLIY62qJwLIY6kmqLAqJDAoJDAoJBgSDD///////////////////////8A////////
+        ////////////////wLCgm6XWCyGOfn6m//DwCyGOwKiQ8OXiCyGO0MCw//jw8ODgYEgw////////////
+        ////////////AP///////////////////////8CwoP///////8CooP///wshjsCooP///////+DQwP/4
+        8P/w8GBIMP///////////////////////wD////////////////////////AsKDAsKDAsKDAsKDAqKAL
+        IY7AqJCwoJCwoJCwmJCwmICwmICwmID///////////////////////8A////////////////////////
+        ////////////////////CyGO////////////////////////////////////////////////////AP//
+        /////////////////////////////////////////wshjv//////////////////////////////////
+        /////////////////wD/////////////////////////////////////////////////////////////
+        //////////////////////////////////////8A////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wA=
+</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>272, 17</value>
+  </metadata>
+  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>563, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>46</value>
+  </metadata>
+</root>
